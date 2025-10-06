@@ -1,0 +1,10 @@
+torch
+numpy
+scikit-learn
+sentence-transformers
+requests
+redis
+pydantic
+pydantic-settings
+python-dotenv
+joblib
