@@ -12,17 +12,17 @@ Built with production-ready features including caching, logging, configuration m
 - Python 3.8+
 - TMDb API key (see https://developer.themoviedb.org/docs/getting-started or email williambazell@yahoo.com)
 
-# Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-# Edit .env with your TMDb API key
+### Edit .env with your TMDb API key
 ```bash
 cp env.example .env
 ```
 Paste TMBD API key where prompted
 
-### Running the Application
+## Running the Application
 
 **Interactive Mode (Recommended)**
 ```bash
@@ -43,7 +43,7 @@ python main.py --mode interactive --load
 ```
 Save trained models and user data, or load existing system state.
 
-### ML Techniques in Recommendation App
+## ML Techniques in Recommendation App
 - **KNN Clustering**: user segmentation and content discovery
 - **Neural Networks**: deep learning models for recommendation scoring
 - **Advanced Embeddings**: Multiple embedding strategies (Sentence Transformers, TF-IDF, Custom)
